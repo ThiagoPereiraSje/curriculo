@@ -1,0 +1,40 @@
+body, html {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Formatação do corpo da página */
+div#interface {
+    width: 70%;
+    margin: auto;
+    background-color: #335384;
+}
+
+/* Formatação da barra lateral */
+aside#sidebar {
+    display: block;
+    width: 25%;
+    float: left;    
+    color: white;    
+}
+
+aside#sidebar img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+/* Formatação do corpo do documento */
+section#body {
+    display: block;
+    width: 70%;
+    float: right;
+    background-color: white;
+}
+
+/* Formatação do rodapé */
+footer#bottombar {
+    clear: both;
+    text-align: center;
+    background-color: white;
+}
