@@ -1,13 +1,23 @@
+@import url('colors.css');
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url("../fonts/Ubuntu-Regular.ttf");
+}
+
 body, html {
     padding: 0px;
     margin: 0px;
+    font-family: "Ubuntu";
+    font-size: 12pt;
+    color: #222;
 }
 
 /* Formatação do corpo da página */
 div#interface {
     width: 70%;
     margin: auto;
-    background-color: #335384;
+    background-color: var(--p36);
 }
 
 /* Formatação da barra lateral */
@@ -47,7 +57,7 @@ aside#sidebar table td.ce {
 }
 
 aside#sidebar table td.cd {
-    font-size: 12pt;
+    font-size: 11pt;
     vertical-align: middle;
 }
 
@@ -63,9 +73,70 @@ section#body {
     background-color: white;
 }
 
+section#body article {
+    margin-left: 15px;
+}
+
+section#body .header h1 {
+    font-size: 30pt;
+    color: var(--s50);
+    margin-bottom: 10px;
+}
+
+section#body .header h2 {
+    color: var(--s50);
+    font-size: 18pt;
+    margin-top: 0px;
+}
+
+section#body h2 {
+    color: var(--s50);
+    font-size: 18pt;
+    margin-bottom: 8px;
+}
+
+section#body div#profile p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+section#body h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 14pt;
+    color: var(--p50);
+}
+
+section#body span {
+    display: block;
+    font-size: 12pt;
+    font-weight: bold;
+    color: var(--p30);
+}
+
+section#body ul {
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+section#body table {
+    margin-left: 20px;
+}
+
+section#body table td {
+    padding: 5px;
+    vertical-align: top;
+}
+
+section#body table td.ce {
+    text-align: right;
+    color: var(--p30);
+    font-weight: bold;
+}
+
 /* Formatação do rodapé */
 footer#bottombar {
     clear: both;
-    text-align: center;
+    padding: 10px;
     background-color: white;
 }
