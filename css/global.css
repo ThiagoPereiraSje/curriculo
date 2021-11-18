@@ -39,6 +39,11 @@ aside#sidebar h2 {
     margin-bottom: 0px;
 }
 
+aside#sidebar a {
+    text-decoration: none;
+    color: white;
+}
+
 aside#sidebar table {
     margin: 0px;
     margin-left: auto;
