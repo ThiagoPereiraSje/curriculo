@@ -139,6 +139,14 @@ section#body table td.ce {
     font-weight: bold;
 }
 
+div#professional_exp ul {
+    margin: 0px;
+}
+
+div#professional_exp ul.marginTop {
+    margin-top: 15px;
+}
+
 /* Formatação do rodapé */
 footer#bottombar {
     clear: both;
