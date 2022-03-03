@@ -16,7 +16,7 @@ body, html {
 /* Formatação do corpo da página */
 div#interface {
     width: 70%;
-    margin: auto;
+    /* margin: auto; */
     background-color: var(--p36);
 }
 
